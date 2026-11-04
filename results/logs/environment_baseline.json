@@ -1,0 +1,43 @@
+{
+  "python": "3.12.10 (v3.12.10:0cc81280367, Apr  8 2025, 08:46:59) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-26.2-arm64-arm-64bit",
+  "architecture": "arm64",
+  "processor": "arm",
+  "ram_gib": 16.0,
+  "logical_cpus": 8,
+  "device": "mps",
+  "dtype": "float32",
+  "mps_built": true,
+  "mps_available": true,
+  "threads": 4,
+  "versions": {
+    "torch": "2.8.0",
+    "torchvision": "0.23.0",
+    "diffusers": "0.35.2",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "torch-fidelity": "0.3.0",
+    "Pillow": "11.3.0",
+    "huggingface-hub": "0.36.0"
+  },
+  "config": {
+    "model_id": "google/ddpm-cifar10-32",
+    "model_revision": "267b167dc01f0e4e61923ea244e8b988f84deb80",
+    "sampler": "DDIM",
+    "steps": 50,
+    "eta": 0.0,
+    "timestep_spacing": "leading",
+    "clip_sample": true,
+    "prediction_type": "epsilon",
+    "dtype": "float32",
+    "seed": 20261104,
+    "samples": 1000,
+    "reference_samples": 1000,
+    "batch_size": 16,
+    "feature_batch_size": 16,
+    "cpu_threads": 4,
+    "timing_repeats": 3,
+    "real_split": "CIFAR-10 test",
+    "feature_extractor": "torch-fidelity inception-v3-compat 2048"
+  }
+}

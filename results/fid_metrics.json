@@ -1,0 +1,18 @@
+{
+  "FID": 57.439699839908656,
+  "n_generated": 1000,
+  "n_reference": 1000,
+  "real_split": "CIFAR-10 test; stratified",
+  "reference_class_count": 100,
+  "feature_extractor": "torch-fidelity 0.3.0 inception-v3-compat",
+  "feature_dimension": 2048,
+  "feature_device": "mps",
+  "fid_covariance_dtype": "float64 CPU",
+  "feature_extraction_seconds": {
+    "generated": 38.93105358298635,
+    "real": 36.17366900003981
+  },
+  "fid_matrix_seconds": 12.777706250024494,
+  "fid_runs": 1,
+  "limitations": "Small-sample FID; not directly comparable to published 50k-sample FID"
+}

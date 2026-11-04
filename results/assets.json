@@ -1,0 +1,41 @@
+{
+  "revision": "267b167dc01f0e4e61923ea244e8b988f84deb80",
+  "assets": [
+    {
+      "path": "cache/model/config.json",
+      "url": "https://huggingface.co/google/ddpm-cifar10-32/resolve/267b167dc01f0e4e61923ea244e8b988f84deb80/config.json",
+      "bytes": 699,
+      "sha256": "49579448cd5728fb83f14186de12464eee143d2f5dccb11b8e13744d712eae9d"
+    },
+    {
+      "path": "cache/model/scheduler_config.json",
+      "url": "https://huggingface.co/google/ddpm-cifar10-32/resolve/267b167dc01f0e4e61923ea244e8b988f84deb80/scheduler_config.json",
+      "bytes": 256,
+      "sha256": "da5d9d26605d2aab854e8f2f2b26d3a407618de17b948bdb7d3846fb0561c7d3"
+    },
+    {
+      "path": "cache/model/diffusion_pytorch_model.safetensors",
+      "url": "https://huggingface.co/google/ddpm-cifar10-32/resolve/267b167dc01f0e4e61923ea244e8b988f84deb80/diffusion_pytorch_model.safetensors",
+      "bytes": 143020084,
+      "sha256": "1558dbe3fb093b0857d473e376b711eeda1b186c557be5e85b3a56300cd49f0f"
+    },
+    {
+      "path": "cache/model/README.md",
+      "url": "https://huggingface.co/google/ddpm-cifar10-32/resolve/267b167dc01f0e4e61923ea244e8b988f84deb80/README.md",
+      "bytes": 2977,
+      "sha256": "a5552a1a9ca743db1788cc714841ef44366e91437e2fde1c85aea7152f11e317"
+    },
+    {
+      "path": "cache/data/cifar10-test.parquet",
+      "url": "https://huggingface.co/datasets/uoft-cs/cifar10/resolve/0b2714987fa478483af9968de7c934580d0bb9a2/plain_text/test-00000-of-00001.parquet",
+      "bytes": 23940850,
+      "sha256": "841389e6f2d64f28bf17310e430aebac20ec3ba611a3c5e231dc93c645ce84de"
+    },
+    {
+      "path": "cache/inception/weights-inception-2015-12-05-6726825d.pth",
+      "url": "https://github.com/toshas/torch-fidelity/releases/download/v0.2.0/weights-inception-2015-12-05-6726825d.pth",
+      "bytes": 95628359,
+      "sha256": "6726825d0af5f729cebd5821db510b11b1cfad8faad88a03f1befd49fb9129b2"
+    }
+  ]
+}

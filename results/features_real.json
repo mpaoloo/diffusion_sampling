@@ -1,0 +1,15 @@
+{
+  "signature": {
+    "image_sha256": "ab3cb0317ed60caea794df8be63e32e57b22d3004f5294724df2091bb3320a72",
+    "shape": [
+      1000,
+      3,
+      32,
+      32
+    ],
+    "extractor_sha256": "6726825d0af5f729cebd5821db510b11b1cfad8faad88a03f1befd49fb9129b2",
+    "device": "mps",
+    "feature_dimension": 2048
+  },
+  "seconds": 36.17366900003981
+}

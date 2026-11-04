@@ -1,0 +1,14 @@
+torch==2.8.0
+torchvision==0.23.0
+diffusers==0.35.2
+huggingface-hub==0.36.0
+accelerate==1.11.0
+safetensors==0.6.2
+numpy==2.2.6
+scipy==1.15.3
+Pillow==11.3.0
+matplotlib==3.10.7
+torch-fidelity==0.3.0
+psutil==7.1.2
+pytest==8.4.2
+pyarrow==23.0.1

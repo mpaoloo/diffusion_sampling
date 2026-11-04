@@ -1,0 +1,59 @@
+{
+  "device": "mps",
+  "load_seconds": 0.6930635840399191,
+  "epsilon_to_x0_max_abs_error": 0.0,
+  "same_noise_same_batch_bitwise_equal_uint8": true,
+  "benchmarks": [
+    {
+      "seconds": 0.34356400003889576,
+      "network_calls": 10,
+      "batch_size": 1,
+      "rss_gib": 0.2219390869140625,
+      "mps_allocated_gib": 0.13367676734924316,
+      "mps_driver_gib": 0.2193603515625,
+      "steps": 10,
+      "seconds_per_image": 0.34356400003889576
+    },
+    {
+      "seconds": 2.46325849997811,
+      "network_calls": 10,
+      "batch_size": 4,
+      "rss_gib": 0.2831268310546875,
+      "mps_allocated_gib": 0.13407349586486816,
+      "mps_driver_gib": 0.2588958740234375,
+      "steps": 10,
+      "seconds_per_image": 0.6158146249945275
+    },
+    {
+      "seconds": 3.8383492089924403,
+      "network_calls": 10,
+      "batch_size": 8,
+      "rss_gib": 0.22662353515625,
+      "mps_allocated_gib": 0.13437867164611816,
+      "mps_driver_gib": 1.259368896484375,
+      "steps": 10,
+      "seconds_per_image": 0.47979365112405503
+    },
+    {
+      "seconds": 5.774430249992292,
+      "network_calls": 10,
+      "batch_size": 16,
+      "rss_gib": 0.282684326171875,
+      "mps_allocated_gib": 0.13450074195861816,
+      "mps_driver_gib": 1.2598419189453125,
+      "steps": 10,
+      "seconds_per_image": 0.3609018906245183
+    }
+  ],
+  "full_50_step_batch": {
+    "seconds": 22.64925941597903,
+    "network_calls": 50,
+    "batch_size": 16,
+    "rss_gib": 0.2635955810546875,
+    "mps_allocated_gib": 0.13450074195861816,
+    "mps_driver_gib": 1.2598419189453125
+  },
+  "noise_sha256": "0b236cc4ac08abd38235f7936847589a04c9d8c18edd6e94cb04460972eb570c",
+  "model_parameters": 35746307,
+  "all_weights_frozen": true
+}
